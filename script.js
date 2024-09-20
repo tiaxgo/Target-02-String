@@ -14,11 +14,11 @@ function verificarLetraA() {
     const quantidade = letrasEncontradas ? letrasEncontradas.length : 0;
 
     if (quantidade > 0) {
-        resultado.textContent = `A letra 'A' aparece ${quantidade} vez(es) na string.`;
+        resultado.textContent = `A letra 'A' aparece ${quantidade} vez(es).`;
         resultado.classList.remove('erro');
         resultado.classList.add('sucesso');
     } else {
-        resultado.textContent = "A letra 'A' não foi encontrada na string.";
+        resultado.textContent = "A letra 'A' não foi encontrada.";
         resultado.classList.remove('sucesso');
         resultado.classList.add('erro');
     }
